@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Controllers;
-
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
@@ -20,7 +18,7 @@ abstract class AbstractResourceController extends AbstractController
     }
 
     /**
-     * Display the resource dashboard/landing page view
+     * Display the resource dashboard/landing page view.
      *
      * @param Request $request
      * @return mixed
@@ -28,7 +26,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function index(Request $request);
 
     /**
-     * Display a resource's details page
+     * Display a resource's details page.
      *
      * @param Request $request
      * @param Model|int $id
@@ -37,7 +35,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function show(Request $request, $id);
 
     /**
-     * Display the create a new resource view
+     * Display the create a new resource view.
      *
      * @param Request $request
      * @return mixed
@@ -45,7 +43,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function create(Request $request);
 
     /**
-     * Display the edit an existing resource view
+     * Display the edit an existing resource view.
      *
      * @param Request $request
      * @param $id
@@ -54,7 +52,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function edit(Request $request, $id);
 
     /**
-     * Store a new resource
+     * Store a new resource.
      *
      * @param Request $request
      * @return mixed
@@ -62,7 +60,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function store(Request $request);
 
     /**
-     * Update an existing resource
+     * Update an existing resource.
      *
      * @param Request $request
      * @param $id
@@ -71,7 +69,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function update(Request $request, $id);
 
     /**
-     * Destroy an existing resource
+     * Destroy an existing resource.
      *
      * @param Request $request
      * @param $id
@@ -80,7 +78,7 @@ abstract class AbstractResourceController extends AbstractController
     abstract public function destroy(Request $request, $id);
 
     /**
-     * Return the default resource response
+     * Return the default resource response.
      *
      * @return mixed
      */
