@@ -12,3 +12,7 @@ All notable changes to `controllers` will be documented in this file
 
 ## 0.3.0 - 2020-10-06
 - add support for php 5.3-5.6 & 7.0-7.1
+
+
+## 0.3.1 - 2020-10-06
+- bump laravel min version requirement to 4.1
