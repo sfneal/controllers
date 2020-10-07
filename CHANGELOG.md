@@ -16,3 +16,7 @@ All notable changes to `controllers` will be documented in this file
 
 ## 0.3.1 - 2020-10-06
 - bump laravel min version requirement to 4.1
+
+
+## 0.3.2 - 2020-10-07
+- cut failing travis ci test using php 5.3
