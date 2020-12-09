@@ -37,9 +37,8 @@ jobs:
           env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS=""
 
     allow_failures:
-        - php: hhvm
-        - php: nightly
-        - php: 8.0
+        -   php: hhvm
+        -   php: nightly
 
 php:
     - nightly
