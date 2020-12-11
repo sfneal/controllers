@@ -20,3 +20,7 @@ All notable changes to `controllers` will be documented in this file
 
 ## 0.3.2 - 2020-10-07
 - cut failing travis ci test using php 5.3
+
+
+## 0.4.0 - 2020-12-11
+- cut support for php5.5 & lower
