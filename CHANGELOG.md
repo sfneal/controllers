@@ -24,3 +24,8 @@ All notable changes to `controllers` will be documented in this file
 
 ## 0.4.0 - 2020-12-11
 - cut support for php5.5 & lower
+
+
+## 1.0.0 - 2021-01-21
+- initial production release
+- update docs
