@@ -20,7 +20,11 @@ composer require sfneal/controllers
 ## Usage
 
 ``` php
-// Usage description here
+use Sfneal\Controllers\AbstractController;
+class YourController extends AbstractController
+{
+    
+}
 ```
 
 ### Testing
