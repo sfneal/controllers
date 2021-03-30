@@ -29,3 +29,7 @@ All notable changes to `controllers` will be documented in this file
 ## 1.0.0 - 2021-01-21
 - initial production release
 - update docs
+
+
+## 1.0.1 - 2021-01-21
+- add code coverage upload to Travis CI config
