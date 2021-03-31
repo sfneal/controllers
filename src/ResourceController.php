@@ -5,7 +5,7 @@ namespace Sfneal\Controllers;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
-abstract class AbstractResourceController extends AbstractController
+abstract class ResourceController extends Controller
 {
     /**
      * Create a new controller instance.
