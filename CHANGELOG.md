@@ -31,5 +31,9 @@ All notable changes to `controllers` will be documented in this file
 - update docs
 
 
-## 1.0.1 - 2021-01-21
+## 1.0.1 - 2021-03-30
 - add code coverage upload to Travis CI config
+
+
+## 2.0.0 - 2021-03-31
+- remove 'Abstract' prefix from Controller class names
