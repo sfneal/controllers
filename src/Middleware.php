@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 
 // todo: create tests
-abstract class Middleware
+interface Middleware
 {
     /**
      * Handle an incoming request.
@@ -19,5 +19,5 @@ abstract class Middleware
      *
      * @return mixed
      */
-    abstract public function handle(Request $request, Closure $next);
+    public function handle(Request $request, Closure $next);
 }
