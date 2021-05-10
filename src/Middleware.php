@@ -1,12 +1,9 @@
 <?php
 
-
 namespace Sfneal\Controllers;
-
 
 use Closure;
 use Illuminate\Http\Request;
-
 
 // todo: create tests
 interface Middleware
