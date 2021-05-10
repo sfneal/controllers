@@ -5,6 +5,7 @@ namespace Sfneal\Controllers;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
+// todo: add tests
 abstract class ResourceController extends Controller
 {
     /**
