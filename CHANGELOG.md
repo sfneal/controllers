@@ -37,3 +37,7 @@ All notable changes to `controllers` will be documented in this file
 
 ## 2.0.0 - 2021-03-31
 - remove 'Abstract' prefix from Controller class names
+
+
+## 2.1.0 - 2021-05-10
+- make `Middleware` interface for implementing Middleware extensions
