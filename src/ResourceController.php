@@ -21,7 +21,7 @@ abstract class ResourceController extends Controller
     /**
      * Display the resource dashboard/landing page view.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @return mixed
      */
     abstract public function index(Request $request);
@@ -29,8 +29,8 @@ abstract class ResourceController extends Controller
     /**
      * Display a resource's details page.
      *
-     * @param Request $request
-     * @param Model|int $id
+     * @param  Request  $request
+     * @param  Model|int  $id
      * @return mixed
      */
     abstract public function show(Request $request, $id);
@@ -38,7 +38,7 @@ abstract class ResourceController extends Controller
     /**
      * Display the create a new resource view.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @return mixed
      */
     abstract public function create(Request $request);
@@ -46,7 +46,7 @@ abstract class ResourceController extends Controller
     /**
      * Display the edit an existing resource view.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @param $id
      * @return mixed
      */
@@ -55,7 +55,7 @@ abstract class ResourceController extends Controller
     /**
      * Store a new resource.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @return mixed
      */
     abstract public function store(Request $request);
@@ -63,7 +63,7 @@ abstract class ResourceController extends Controller
     /**
      * Update an existing resource.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @param $id
      * @return mixed
      */
@@ -72,7 +72,7 @@ abstract class ResourceController extends Controller
     /**
      * Destroy an existing resource.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @param $id
      * @return mixed
      */
