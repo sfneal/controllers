@@ -31,6 +31,6 @@ class TestCase extends OrchestraTestCase
     {
         parent::setUp();
 
-        View::addLocation(__DIR__.'/resources/views');
+        View::addLocation(__DIR__.'/Assets/resources/views');
     }
 }

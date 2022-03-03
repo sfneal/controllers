@@ -1,5 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Sfneal\Controllers\Tests\Assets\Controllers\MockController;
 
-Route::get('test')->name('test');
+Route::get('test', MockController::class)->name('test');
