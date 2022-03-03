@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+    controllers:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: "stephenneal/controllers:${TAG}"
+        env_file: .env.docker
+        container_name: controllers
+        tty: true
+        volumes:
+            - controllers:/var/www
+        depends_on:
+            - controllers-cache
+        networks:
+            - controllers-network
+
+    controllers-cache:
+        container_name: controllers-cache
+        image: redis:6-alpine
+        command: ["redis-server", "--appendonly yes", "--port 9576"]
+        ports:
+            - "9576:9576"
+        volumes:
+            - controllers-cache:/data
+        networks:
+            - controllers-network
+
+
+# Networks
+networks:
+    controllers-network:
+        driver: bridge
+
+# Volumes
+volumes:
+    controllers:
+    controllers-cache:
