@@ -41,3 +41,9 @@ All notable changes to `controllers` will be documented in this file
 
 ## 2.1.0 - 2021-05-10
 - make `Middleware` interface for implementing Middleware extensions
+
+
+## 3.0.0 - 2022-03-03
+- cut support for php 5.6, 7.1 & 7.2
+- add basic PHPunit test suite
+- add use of GitHub workflows
